@@ -1,70 +1,71 @@
 
-#mainBody{
-    background-color: #777;
+*{
+    box-sizing: border-box;
     font-family: sans-serif;
+    text-align: center;
+    font-weight: normal;
+    color: #777;
 }
-#frame{
-    margin-right: 100px;
-    margin-left: 100px;
+body{
+    font-size: 20px;
+    line-height: 20px;
+    background-color: #777;
+    width: 80%;
+    margin: 0 auto;
 }
-.content{
+header{
     background-color:#ebebeb;
-    width: auto;
-    height: 100px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    padding: 30px;
+    margin: 10px auto;
 }
-.text{
-    font-weight: 300;
-    padding-top: 40px;
-    color:#777;
-    text-align: center;
-}
-#article-text{
-    font-weight: 300;
-    padding-top: 30px;
-    color: #ebebeb;
-    text-align: center;
-}
-#main{
-    margin-top: 20px;
-    margin-bottom: 20px;
+nav{
+    background-color:#ebebeb;
+    padding: 30px;
+    margin: 10px auto;
 }
 
-#section{
+section{
+    position: relative;
+    background-color:#ebebeb;
+    height: 300px;
+    padding-top: 30px;
+    margin: 10px 10px 20px 0px;
+    float: left;
+    overflow: auto;
+    width: 58%;
+}
+article{
+    background-color:#777;
+    margin:30px 10px 10px;
+    padding: 20px 10px 10px;
+    color: #ebebeb;
+}
+h1{
+    background-color:#ebebeb; 
+    margin: 10px;
+    padding: 20px;
+    font-weight: bold;
+}
+p{
+    background-color:#ebebeb;
+    padding: 20px;
+    margin: 10px;
+}
+aside{
+    position: relative;
+    padding-top: 30px;
+    overflow: auto;
+    height: 300px;
+    margin:10px 0 20px 10px;
+    display: inline-block;
+    width:40%;
     background-color:#ebebeb;
     float: left;
-    height: 300px;
-    width: 580px;
 }
-#article{
-    background-color:#777;
-    height: 200px;
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-top: 30px;
-}
-.article-content{
-    background-color: #ebebeb ; 
-    width: auto;
-    height: 50px;
-    margin-left: 10px;
-    margin-right: 10px;
-    color: #777;
-    text-align:center;
-}
-#aside{
+footer{
+    
     background-color:#ebebeb;
-    height: 300px;
-    width: auto;
-    margin-left: 600px;
-}
-#aside-content{
-    font-weight: 300;
-    padding-top: 40px;
-    color: #777;
-    text-align: center;
-}
-.article-content-text{
-    padding-top: 15px;
+    padding: 30px;
+    margin:10px auto;
+    clear: both;
 }
